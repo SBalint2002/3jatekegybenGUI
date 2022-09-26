@@ -1,0 +1,197 @@
+﻿<Window x:Class="ElméletBeadando0412.Elsooldal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ElméletBeadando0412"
+        mc:Ignorable="d"
+        Background="#8ec641"
+        ResizeMode="NoResize"
+        Width="1100"
+        WindowStyle="None"
+        WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="10" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="menusor" Background="#2a2e3f" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <WrapPanel Grid.Column="0">
+                <WrapPanel>
+                    <Image Width="150" Source="Kép/unknown.png"/>
+                </WrapPanel>
+            </WrapPanel>
+            <TextBlock Foreground="White" TextWrapping="Wrap" Grid.Row="0" Grid.Column="2" Background="#2a2e3f" FontFamily="Times New Roman" Text="Lottó számok" VerticalAlignment="Center"/>
+            <Button Foreground="White" Content="Főmenü" Grid.Column="9" Background="#2a2e3f" BorderThickness="0" Click="fomenu" Margin="0,0,0,0" BorderBrush="White" FontFamily="Times New Roman"/>
+            <Menu Grid.Column="8" Background="#2a2e3f">
+                <MenuItem Background="#2a2e3f" Header="Játékok" Foreground="White" Margin="0,0,0,0" FontFamily="Times New Roman" Height="30" Width="95" >
+                    <MenuItem Background="#2a2e3f" Header="Lotto" FontFamily="Times New Roman" BorderThickness="0" />
+                    <MenuItem Background="#2a2e3f" Header="Másik Játék" Click="Menuclick1" FontFamily="Times New Roman" BorderThickness="0" />
+                    <MenuItem Background="#2a2e3f" Header="Memória" Click="Menuclick2" FontFamily="Times New Roman" BorderThickness="0" />
+                </MenuItem>
+            </Menu>
+            <Button Foreground="White" Content="Kilépés" Grid.Column="10" Background="#2a2e3f" BorderThickness="0" Click="kilep" Margin="0,0,0,0" BorderBrush="White" FontFamily="Times New Roman"/>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Height="50">
+                    <Border Grid.Row="2" BorderBrush="Black" BorderThickness="2" Margin="5,5,5,-2">
+                        <TextBlock Text="52 hét lottó nyerőszámai:"
+                           HorizontalAlignment="Center"
+                           Padding="15"
+                           TextAlignment="Center"
+                           FontSize="20"
+                           FontFamily="Times New Roman"
+                           VerticalAlignment="Center" Margin="0,-6,0,-5" Width="543" Height="54"/>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Height="50">
+                    <Border Grid.Row="2" BorderBrush="Black" BorderThickness="2" Margin="0,5,5,-2" Width="545">
+                        <Button Content="Újrasorsolás" FontSize="20" BorderBrush="{x:Null}" 
+                                VerticalAlignment="Center" Width="150"
+                                Click="ujrasorsolas" Background="#FF5CD130" HorizontalAlignment="Center" Margin="0,5,0,5"
+                                Style="{DynamicResource ButtonStyle1}" FontFamily="Times New Roman"/>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Border Grid.Row="2" BorderBrush="Black" BorderThickness="2" Margin="5,0,548,5" Grid.ColumnSpan="2">
+            <Grid x:Name="grid3" Grid.Column="0" Margin="0,0,-7,0">
+                <Button Content="Számok megjelenítése" FontSize="40" BorderBrush="{x:Null}" 
+                                VerticalAlignment="Center" Width="450" Grid.Row="2"
+                                Click="general" Background="#FF5CD130" HorizontalAlignment="Center" Margin="0,0,0,0"
+                                Style="{DynamicResource ButtonStyle1}" FontFamily="Times New Roman"/>
+            </Grid>
+        </Border>
+        <Grid Grid.Row="2" Grid.Column="1" Margin="0,0,5,5">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Leggyakrabban kihúzott szám:" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="19"/>
+                <Label x:Name="leggyakoribb" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                <Border Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+                <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Legritkábban kihúzott szám:" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                <Label x:Name="legritkabb" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                <Border Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+                <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Legnagyobb kihúzott szám:" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="0"/>
+                <Label x:Name="legnagyobb" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                <Border Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+                <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+            </Grid>
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Legkissebb kihúzott szám:" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Grid.Column="0"/>
+                <Label x:Name="legkissebb" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                <Border Grid.Column="0" BorderBrush="Black" BorderThickness="1"/>
+                <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,42 @@
+﻿<Window x:Class="ElméletBeadando0412.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ElméletBeadando0412"
+        mc:Ignorable="d"
+        Title="Szerencsjáték zrt" Width="300" Height="500"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+         Background="Gray">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="Black">
+            <TextBlock Text="Főmenü" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" TextWrapping="Wrap">
+                
+            </TextBlock>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="1" Content="5-ös Lottó" FontFamily="Times New Roman" FontSize="20" Background="Gray" BorderThickness="1" Click="lotto"/>
+            <Button Grid.Row="3" Content="Másik Játék" FontFamily="Times New Roman" FontSize="20" Background="Gray" BorderThickness="1" Click="masik"/>
+            <Button Grid.Row="5" Content="Beolvasós" FontFamily="Times New Roman" FontSize="20" Background="Gray" BorderThickness="1" Click="beolvasos"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Button Content="Kilépés" FontFamily="Times New Roman" FontSize="20" Foreground="White" Background="Red" BorderThickness="1" Width="100" Height="50" Click="kilep" />
+        </Grid>
+    </Grid>
+    
+</Window>

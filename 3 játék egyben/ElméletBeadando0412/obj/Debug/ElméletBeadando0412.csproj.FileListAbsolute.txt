@@ -1,0 +1,58 @@
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\bin\Debug\ElméletBeadando0412.exe.config
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\bin\Debug\ElméletBeadando0412.exe
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\bin\Debug\ElméletBeadando0412.pdb
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.csprojAssemblyReference.cache
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\MainWindow.g.cs
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\App.g.cs
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ElméletBeadando0412_MarkupCompile.cache
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ElméletBeadando0412_MarkupCompile.lref
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\MainWindow.baml
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.g.resources
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.Properties.Resources.resources
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.csproj.GenerateResource.cache
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.csproj.CoreCompileInputs.cache
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.exe
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.pdb
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\Masodikoldal.g.cs
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\Elsooldal.g.cs
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\Elsooldal.baml
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\Masodikoldal.baml
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\masikoldal.g.cs
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\masikoldal.baml
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\CustomMessagebox.g.cs
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\CustomMessagebox.baml
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\Openfile.g.cs
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\Openfile.baml
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\pontszampedzs.g.cs
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\pontszampedzs.baml
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ketszerese.g.cs
+C:\Users\saran\Desktop\ElméletBeadando0412\ElméletBeadando0412\obj\Debug\ketszerese.baml
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\bin\Debug\ElméletBeadando0412.exe.config
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\bin\Debug\ElméletBeadando0412.exe
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\bin\Debug\ElméletBeadando0412.pdb
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.csprojAssemblyReference.cache
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\CustomMessagebox.g.cs
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\Elsooldal.g.cs
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ketszerese.g.cs
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\MainWindow.g.cs
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\masikoldal.g.cs
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\Masodikoldal.g.cs
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\Openfile.g.cs
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\pontszampedzs.g.cs
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\App.g.cs
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ElméletBeadando0412_MarkupCompile.cache
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ElméletBeadando0412_MarkupCompile.lref
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\CustomMessagebox.baml
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\Elsooldal.baml
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ketszerese.baml
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\MainWindow.baml
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\masikoldal.baml
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\Masodikoldal.baml
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\Openfile.baml
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\pontszampedzs.baml
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.g.resources
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.Properties.Resources.resources
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.csproj.GenerateResource.cache
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.csproj.CoreCompileInputs.cache
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.exe
+D:\Iskola\Programozás\3 játék egyben\ElméletBeadando0412\obj\Debug\ElméletBeadando0412.pdb
